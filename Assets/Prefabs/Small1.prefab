@@ -119,5 +119,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21888eb1880f674a941225895a7cf54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initVelocity: {x: -1, y: 0, z: 10}
+  initVelocity: {x: 40, y: 0, z: 40}
   applyInitVelocityOnStart: 1
