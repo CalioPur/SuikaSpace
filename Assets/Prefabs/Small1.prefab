@@ -73,7 +73,7 @@ PrefabInstance:
       addedObject: {fileID: 980061361645554829}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73899a4ace4d2c9409abd7fa016c271a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5593560977362921570}
+      addedObject: {fileID: 8065963331348307984}
   m_SourcePrefab: {fileID: 100100000, guid: 73899a4ace4d2c9409abd7fa016c271a, type: 3}
 --- !u!1 &7181765315282100228 stripped
 GameObject:
@@ -107,25 +107,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &5593560977362921570
-MeshCollider:
+--- !u!114 &8065963331348307984
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7181765315282100228}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 289301614986012343, guid: 73899a4ace4d2c9409abd7fa016c271a, type: 3}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21888eb1880f674a941225895a7cf54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initVelocity: {x: -1, y: 0, z: 10}
+  applyInitVelocityOnStart: 1
