@@ -43,7 +43,7 @@ public class AttractPlanets : MonoBehaviour
         float distance = Vector3.Distance(attractor.position, attracted.position);
 
         // Force = gravity * (( mass 1 * mass 2 ) / distance^2)
-        float scaledForce = gravity * (massProduct / distance*distance);
+        float scaledForce = gravity * (massProduct / (distance*distance));
 
         Vector3 forceDirection = Vector3.Normalize(difference);
         Vector3 forceVector = forceDirection * scaledForce;
